@@ -1,0 +1,58 @@
+{
+    "name": "insight_github",
+    "version": "1.1.0",
+    "description": "Using the Github API to analyze Github repo data.",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --progress --colors"
+    },
+    "author": "Michael Treanor",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.4.1",
+        "lru-cache": "^5.1.1",
+        "popper.js": "^1.16.0"
+    },
+    "devDependencies": {
+        "lodash.template": ">=4.5.0",
+        "autoprefixer": "^9.7.1",
+        "css-loader": "^1.0.1",
+        "file-loader": "^2.0.0",
+        "mini-css-extract-plugin": "^0.8.0",
+        "node-sass": "^4.13.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "postcss-loader": "^3.0.0",
+        "precss": "^3.1.2",
+        "sass-loader": "^7.3.1",
+        "style-loader": "^1.0.0",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "url-loader": "^1.1.2",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/skeptycal/insight_github"
+    },
+    "keywords": [
+        "python",
+        "github",
+        "api",
+        "github api",
+        "clojure",
+        "lein",
+        "Leiningen",
+        "portfolio",
+        "lisp"
+    ],
+    "bugs": {
+        "url": "https://github.com/skeptycal/insight_github/issues"
+    },
+    "homepage": "https://github.com/skeptycal/insight_github#readme"
+}

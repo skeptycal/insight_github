@@ -1,0 +1,79 @@
+@import '~bootstrap/scss/bootstrap';
+$fa-font-path: '~font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+$my-grey: #e4e4e4;
+$my-charcoal: #272727;
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.125rem;
+}
+
+.horizon {
+    background-color: $my-charcoal;
+}
+
+header,
+footer {
+    height: 2rem;
+}
+
+section#main {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.profile-meta {
+    @extend .col-md-3;
+    @include media-breakpoint-down(md) {
+        text-align: center;
+    }
+    text-align: center;
+    img {
+        border-radius: 50%;
+        border: 3px solid darken($my-grey, 30%);
+        height: 160px;
+        width: 160px;
+    }
+    li.list-group-item {
+        border: none;
+    }
+}
+
+.profile-content {
+    @extend .col-md-9;
+}
+
+article p:first-of-type {
+    @extend .rounded;
+    font-size: 1.25rem;
+    border: 1px solid $my-grey;
+    padding: 0.875em;
+    background-color: #faf5ff;
+}
+
+article p {
+    padding: 0 0.875em;
+}
+
+footer {
+    @extend .text-muted;
+    border-top: 1px solid $my-grey;
+    padding-top: 1rem;
+}
