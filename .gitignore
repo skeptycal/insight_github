@@ -1,6 +1,7 @@
 *private*
 .vscode/
 node_modules
+output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
