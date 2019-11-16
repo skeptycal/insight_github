@@ -7,7 +7,7 @@ help: # http://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
 	awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 install-backend: ## Install the Clojure and Python backend dependencies.
-	lein deps && pipenv install --python3.8
+	lein deps && pipenv install --python 3.8
 
 install-frontend: ## Install the JavaScript frontend dependencies.
 	npm install
